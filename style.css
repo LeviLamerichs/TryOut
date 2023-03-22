@@ -26,10 +26,19 @@ body{
 
 }
 
+#Tree1{
+    width: 32px;
+    height: 64px;
+    left: 495px;
+    top: 280px;
+    
+}
+
 
 .gameobject{
     position: absolute;
-    /*background-color: #fff;*/
+    transition: all 1s ease-out;
+    background-color: #fff;
 }
 
 .foreGround{
