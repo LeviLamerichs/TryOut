@@ -16,8 +16,31 @@
 
    <h1 id="mainTitle"></h1>
    <div id="gameWindow"> 
+     <!--Dialogue bar-->
+
+     <div id="dialogueBar" class="gameobject foreground">
+      <div id="dialogueContent">
+           
+           <img id="hero" class="gameobject foreground" src="img/Imtirednamingthisshit.png" alt="mainCharacter">
+           
+           <div id="mainCharacterSpeech" class="gameobject foreground speech-bubble"></div>
+           <div id="brownBar"></div>
+
+           <div id="counterSpeech" class="gameobject foreground speech-bubble"></div>
+           <img id="counterCharacter" class="gameobject foreground" src="img/portairStatue.png" alt="counter character">
+      </div>     
+     </div>
+
      <!--foreground layer-->
        <div id="Tree1" class="gameobject foreground">
+        
+       </div>
+
+       <div id="door1" class="gameobject foreground">
+        
+       </div>
+
+       <div id="statue" class="gameobject foreground">
         
        </div>
 
@@ -28,10 +51,19 @@
  
      <!--background layer-->
      <div id="tileMap" class="gameobject background">
-        <img src="img/Tilesetpng.png" alt="tileMap">
+        <img src="img/Tilemap.png" alt="tileMap">
      </div>
 
     </div>
+
+    <audio id="characterAudio">
+      <source src="audio/Y2Mate.is - Cat meme (huh)-84Vi1Mbhzsw-160k-1654530279158.mp3" type="audio/ogg">
+      <source src="audio/Y2Mate.is - Cat meme (huh)-84Vi1Mbhzsw-160k-1654530279158.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="counterAudio">
+      <source src="audio/Y2Mate.is - AAAAUUUGHHHH Meme Sound Effect-BmbM5B4NjxY-128k-1655958406876.mp3" type="audio/ogg">
+      <source src="audio/Y2Mate.is - AAAAUUUGHHHH Meme Sound Effect-BmbM5B4NjxY-128k-1655958406876.mp3" type="audio/mpeg">
+  </audio>
    
   
 
